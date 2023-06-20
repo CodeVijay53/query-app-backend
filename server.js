@@ -1,5 +1,6 @@
 const express = require('express') // commonjs module syntax
-const colors = require('colors')
+const colors = require('colors');
+const cors = require("cors");
 const dotenv = require('dotenv').config()
 const { errorHandler } = require('./middleware/errorMiddleware')
 const connectDB = require('./config/db')
@@ -20,6 +21,7 @@ const app = express()
  * This is a built-in middleware function in Express.
  * It parses incoming requests with JSON payloads and is based on body-parser.
  */
+app.use(cors());
 app.use(express.json())
 
 /**
