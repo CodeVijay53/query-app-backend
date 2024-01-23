@@ -34,12 +34,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [Postman](https://www.postman.com/)
   Postman is an application used for API testing.
 
-
-### Deployed On
-* [HEROKU](https://heroku.com/)
-  
-  [Support Ticket App](https://support-desk-mern-arifmd.herokuapp.com/)
-
 ### Installation
 
 ### .env
